@@ -1,18 +1,60 @@
-/*Comment 1*/
+/*Website*/
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:burlywood;
-    font-size: 2em;
+    font-size: 1em;
     margin: 0;
     padding: 0;
     box-sizing:content-box;
-    background-color:rgb(178, 143, 212)
+    background: linear-gradient(105deg, #ff00ff 75%, #f723d3b6 80%, #ff00ff 95%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-/*Website*/
-
-    
 /*Index*/
+    /*Nav Bar*/
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 30%;
+            position: fixed;
+            z-index 1000;   
+        }
+
+        .
+
+    /*Footer*/
+
+        footer {
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            padding: 20px;
+            
+        }
+        .footerhead {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .footerhead .contactinfo {
+            text-emphasis-style: open sesame;
+            text-align: center;        ;
+        }
+        .contactinfo {
+            border:#000000;
+            border-style:ridge;
+            padding: 1%
+        }
+        footer a {
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline
+        }
+        
+
 
 /*Directions*/
 #directionsli {
