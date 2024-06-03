@@ -19,7 +19,7 @@ body {
             align-items: center;
             width: 30%;
             position: fixed;
-            z-index 1000;   
+            z-index: 1000;   
         }
 
         .
@@ -53,16 +53,34 @@ body {
         footer a:hover {
             text-decoration: underline
         }
-        
-
 
 /*Directions*/
-#directionsli {
-    font-family:'Times New Roman', Times, serif;
-    color:black
+        #directionsli {
+            font-family:'Times New Roman', Times, serif;
+            color:black
 }
+
 /*Ingredients*/
-#ingredientsli {
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-}
+        #ingredientsli {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+    /*Table*/
+        .kcal {
+            display: flex;
+            table-layout: auto;
+            width: 150px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1em;
+            border-collapse: collapse;
+        }
+        .kcal,td,th {
+            border: 1px;
+            border-style: solid;
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even) {background-color: bisque;}
+
+/*Flexbox*/
+
