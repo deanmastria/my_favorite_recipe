@@ -11,6 +11,7 @@
             background: linear-gradient(105deg, #eae480 75%, #efff3ede 80%, #eae480 95%);
             text-decoration-color: black;
             font-size: 1em;
+            text-align: center;
         }
         .container {
             width: 80%;
@@ -48,39 +49,41 @@
         </nav>
     </header>
 
-<div class="container">
-    <div class="nameform">
-        <form action="some-html">
-            <label for="firsname">First Name:</label>
-            <input type="FirstName" name="FirstName"><br>
-            <label for="Lastname">Last Name:</label>
-            <input type="Lastname" name="Lastname">
-        </form><br><br><br><br>
-    </div>
-    <div class="textbox">
-    <form> 
-        <label>Text Area</label>
-            <textarea name="message" rows="10" cols="30">enter feedback here</textarea>
+    <div class="container">
+        <div class="nameform">
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            <br>
+        </div>
+        <div class="email">
+            <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+        </div>
+    
+        <div class="textbox">
+            <form>
+                    <label for="Text Area">Give Us Your Thoughts: </label>
+                    <textarea id="name" name="message" rows="10" cols="30" required></textarea>
+        </div>
+        <div class="dropdown">
+            <form>
+            <label for="Donuts You Want Featured">What recipe do you want to see next?</label>
+            <select id="Donuts">
+                <option value="Boston Kreme">Boston Kreme</option>
+                <option value="Chocolate Sprinkle">Chocolate Sprinkle</option>
+                <option value="Croissant">Croissant</option>
+                <option value="Blueberry Cake">Blueberry Cake</option>
+            </select>
+        </div>
+        <div class="submitbutton">
+            <button type="submit">Submit</button>
+        </div>
+        <label for="button"></label>
             
-            <input type="submit">
-    </form>
-</div>
-<div class="email">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email"><br><br><br>
-</div>
-<div class="dropdown">
-    <form>
-        <label for="Donuts You Want Featured">What recipe do you want to see next?</label>
-        <select id="Donuts">
-            <option value="Boston Kreme">Boston Kreme</option>
-            <option value="Chocolate Sprinkle">Chocolate Sprinkle</option>
-            <option value="Croissant">Croissant</option>
-            <option value="Blueberry Cake">Blueberry Cake</option>
-        </select>
-    </form>
-</div>
-</div>
+        </div>
+    </div>
     <footer>
         <div class="footerhead">       
             <h3>Contact Info</h3>

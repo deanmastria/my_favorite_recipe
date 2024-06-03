@@ -120,5 +120,42 @@ body {
 
 
 
-/*Flexbox*/
+/*Form.html*/
+
+        .container .nameform {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .container .textbox {
+            display: flex;
+            justify-content: center;
+            align-content: flex-start;
+        }
+
+        .textbox form label {
+            display: block flex;
+            justify-content: space-evenly;
+        }
+
+        .container .email {
+            display: flex;
+            justify-content: center;
+            align-content: space-evenly;
+        }
+
+        .container .dropdown {
+            display: flex;
+            justify-content: center;
+            align-content:space-between;
+
+        }
+        .container .submitbutton {
+            display: flex;
+            justify-content: center;
+            align-content:space-between;
+
+        }
+
 
