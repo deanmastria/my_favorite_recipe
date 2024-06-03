@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Directions</title>
-    <link rel="stylesheet" href="styles2.css"> 
+    <link rel="stylesheet" href="styles.css"> 
     <style>
         body {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            background: linear-gradient(105deg, #eae480 75%, #efff3ede 80%, #eae480 95%);;
+            background: linear-gradient(105deg, #eae480 75%, #b6d4e0 90%, #eae480 95%);;
         }
         .container {
             width: 80%;
@@ -22,6 +22,7 @@
             border: 1px solid #999;
             border-radius: 5px;
         }
+
         header, footer {
             background-color: #f8f8f8;
             padding: 10px 0;
@@ -35,15 +36,16 @@
 </head>
     <body>
         <header>
-            <h1>Directions</h1>
+            <h1 class="directhead1">Directions</h1>
             <nav>
                 <a href="index.html">Index</a> |
                 <a href="ingredients.html">Ingredients</a>
             </nav>
-        </header>    
+        </header>
+        <div class="container">    
             <img src="https://hips.hearstapps.com/hmg-prod/images/glazed-donut-recipe-1-65008ab2b45fb.jpg?crop=1.00xw:0.892xh;0,0.0370xh&resize=640:*" alt="Glazed Doughnuts">
                 <h1 class="directionsheader">Directions</h1>
-                    <p class="para1">How do I make my own delicious donuts?</p>
+                    <h2 class="directhead2">How do I make my own delicious donuts?</h2>
                     <ol class="directionsli">
                         <li>Prepare the dough</li>
                         <li>Let the dough rise</li>
@@ -51,7 +53,9 @@
                         <li><i>Roll and cut into doughnuts</i></li>
                         <li>Prepare the oil</li>
                         <li>Fry the doughnuts</li>
-                        <li>Making the glaze</li> <!--create a separate list for this step-->
+                    </ol>
+                    <h3>Making the glaze</h3>
+                    <ol class="directionsli">
                         <li>Whisk milk or cream, confectioners sugar and vanilla extract</li>
                         <li>Dunk each side into the glaze, the glaze will set in about 20 minutes</li>
                     </ol>

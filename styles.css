@@ -1,7 +1,7 @@
 /*Website*/
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:burlywood;
+    color:black;
     font-size: 1em;
     margin: 0;
     padding: 0;
@@ -36,13 +36,50 @@ body {
         footer a:hover {
             text-decoration: underline;
         }
+        .container .indexp {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+                      
+        }
+
+        .container .indexp2 { 
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .container .indexp3 {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .container .indexp4 {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-style: italic;
+        }
+    
+        header {
+            border-top-left-radius: 50%;
+            border-color: aquamarine;
+            border-style: groove;
+            border-width: .5cap;
+        }
+
+        footer {
+            border-bottom-right-radius: 50%;
+            border-color: aquamarine;
+            border-style: groove;
+            border-width: .5cap;
+        }
 
 /*Directions*/
         .directionsli {
             font-family:'Times New Roman', Times, serif;
             color:black
 }
-
 /*Ingredients*/
 
         .ingredientsheader {
