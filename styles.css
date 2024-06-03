@@ -80,6 +80,23 @@ body {
             font-family:'Times New Roman', Times, serif;
             color:black
 }
+
+        .container .image {
+            display: flex;
+            justify-content: center;
+        }
+
+        .directionsheader {
+            text-align: center;
+        }
+
+        .directhead2 {
+            text-align: center;
+        }
+
+        .directions2 {
+            text-align: center;
+        }
 /*Ingredients*/
 
         .ingredientsheader {
