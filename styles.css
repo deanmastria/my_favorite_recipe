@@ -6,68 +6,66 @@ body {
     margin: 0;
     padding: 0;
     box-sizing:content-box;
-    background: linear-gradient(105deg, #ff00ff 75%, #f723d3b6 80%, #ff00ff 95%);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 /*Index*/
-    /*Nav Bar*/
-        .navbar {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            width: 30%;
-            position: fixed;
-            z-index: 1000;   
-        }
-
-        .
+    /*Nav Bar*/       
 
     /*Footer*/
-
-        footer {
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            padding: 20px;
-            
-        }
         .footerhead {
             display: flex;
             flex-direction: column;
             align-items: center;
         }
         .footerhead .contactinfo {
-            text-emphasis-style: open sesame;
-            text-align: center;        ;
+            text-emphasis-style: open sesame;        
         }
         .contactinfo {
+            text-align: center;
+            margin: 1em auto;
             border:#000000;
             border-style:ridge;
-            padding: 1%
+            padding: 1%;
+            max-width: fit-content;
         }
         footer a {
             text-decoration: none;
         }
         footer a:hover {
-            text-decoration: underline
+            text-decoration: underline;
         }
 
 /*Directions*/
-        #directionsli {
+        .directionsli {
             font-family:'Times New Roman', Times, serif;
             color:black
 }
 
 /*Ingredients*/
-        #ingredientsli {
+
+        .ingredientsheader {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .ingredientsheader2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .ingredientsli {
             font-family: Arial, Helvetica, sans-serif;
             color: black;
         }
     /*Table*/
-        .kcal {
+        .Nutritable {
             display: flex;
+            margin: 20px auto;
             table-layout: auto;
             width: 150px;
             font-family: 'Courier New', Courier, monospace;
@@ -76,11 +74,14 @@ body {
         }
         td,th {
             border: 1px;
+            margin: auto;
             border-style: solid;
             text-align: left;
             padding: 8px;
         }
         tr:nth-child(even) {background-color: bisque;}
+
+
 
 /*Flexbox*/
 

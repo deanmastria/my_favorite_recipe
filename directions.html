@@ -4,33 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Directions</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles2.css"> 
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background: linear-gradient(105deg, #eae480 75%, #efff3ede 80%, #eae480 95%);;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        .container > div {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #999;
+            border-radius: 5px;
+        }
+        header, footer {
+            background-color: #f8f8f8;
+            padding: 10px 0;
+            text-align: center;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.8em;
+        }
+    </style>
 </head>
     <body>
-        <header>Directions</header>    
+        <header>
+            <h1>Directions</h1>
             <nav>
-                <a href="index.html">Index</a>
+                <a href="index.html">Index</a> |
                 <a href="ingredients.html">Ingredients</a>
             </nav>
+        </header>    
             <img src="https://hips.hearstapps.com/hmg-prod/images/glazed-donut-recipe-1-65008ab2b45fb.jpg?crop=1.00xw:0.892xh;0,0.0370xh&resize=640:*" alt="Glazed Doughnuts">
-                <h1 id="directionsheader">Directions</h1>
+                <h1 class="directionsheader">Directions</h1>
                     <p class="para1">How do I make my own delicious donuts?</p>
-                    <ol id="directionsli">
+                    <ol class="directionsli">
                         <li>Prepare the dough</li>
                         <li>Let the dough rise</li>
                         <li>punch down through the dough to release the air</li>
-                        <li><i>Rol and cut into doughnuts</i></li>
+                        <li><i>Roll and cut into doughnuts</i></li>
                         <li>Prepare the oil</li>
                         <li>Fry the doughnuts</li>
                         <li>Making the glaze</li> <!--create a separate list for this step-->
                         <li>Whisk milk or cream, confectioners sugar and vanilla extract</li>
                         <li>Dunk each side into the glaze, the glaze will set in about 20 minutes</li>
                     </ol>
-                <h2>Step 2</h2>
-
-                <h3>Step 3</h3>
         <footer>
-            <!--insert contact info etc-->
+            <div class="footerhead">       
+                <h3>Contact Info</h3>
+            </div>
+                | Email: <a href=mailto:glazethemdoughnuts@makeematnight.com> glazethemdoughnuts@makeematnight.com</a> | <BR>
+                                   | Phone: <a href=tel+5558675309> (555)867-5309</a> | <BR>
+                                   | <a href="#social-media"> Insta & X</a> | <BR>
+                                   | <a href="form.html">Forms</a> |
+                                </div>
+                <p>&copy; 2024 My Website. All rights reserved.</p>
+            
         </footer>
     </body>
 </html>
