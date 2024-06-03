@@ -5,25 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background: linear-gradient(105deg, #eae480 75%, #efff3ede 80%, #eae480 95%);
+            text-decoration-color: black;
+            font-size: 1em;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border: px solid #ccc;
+        }
+        .container > div {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #999;
+            border-radius: 60px;
+            border-inline-start-color: rgba(127, 255, 212, 0.87);
+            border-inline-width: 20px;
+            border-inline-end-color: burlywood;
+        }
+        header, footer {
+            background-color: #f8f8f8;
+            padding: 10px 0;
+            text-align: center;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.8em;
+        }
+    </style>
 </head>
 <body>
-    <H1>Let's Get Some Feedback!</H1>
-    <form action="some html">
-        <label for="firsname">First Name:</label>
-        <input type="FirstName" name="FirstName"><br>
-        <label for="Lastname">Last Name:</label>
-        <input type="Lastname" name="Lastname">
-    </form><br><br><br><br>
+    <header>
+        <H1>Let's Get Some Feedback!</H1>
+        <nav class="navbar">
+            <a href="index.html">Index</a> |
+            <a href="directions.html">Directions</a> |
+            <a href="ingredients.html">Ingredients</a> 
+        </nav>
+    </header>
 
+<div class="container">
+    <div class="nameform">
+        <form action="some-html">
+            <label for="firsname">First Name:</label>
+            <input type="FirstName" name="FirstName"><br>
+            <label for="Lastname">Last Name:</label>
+            <input type="Lastname" name="Lastname">
+        </form><br><br><br><br>
+    </div>
+    <div class="textbox">
     <form> 
         <label>Text Area</label>
             <textarea name="message" rows="10" cols="30">enter feedback here</textarea>
-            <br><br>
+            
             <input type="submit">
-    </form><br><br><br><br>
-
-    <button> that's a nice button</button><br><br><br>
-
+    </form>
+</div>
+<div class="email">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br><br>
+</div>
+<div class="dropdown">
     <form>
         <label for="Donuts You Want Featured">What recipe do you want to see next?</label>
         <select id="Donuts">
@@ -33,6 +79,19 @@
             <option value="Blueberry Cake">Blueberry Cake</option>
         </select>
     </form>
+</div>
+</div>
+    <footer>
+        <div class="footerhead">       
+            <h3>Contact Info</h3>
+        </div>
+            | Email: <a href=mailto:glazethemdoughnuts@makeematnight.com> glazethemdoughnuts@makeematnight.com</a> | <BR>
+                               | Phone: <a href=tel+5558675309> (555)867-5309</a> | <BR>
+                               | <a href="#social-media"> Insta & X</a> | <BR>
+                            </div>
+            <p>&copy; 2024 My Website. All rights reserved.</p>
+        
+    </footer>
     
 </body>
 </html>
