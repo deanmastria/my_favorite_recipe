@@ -2,7 +2,7 @@
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:black;
-    font-size: 1em;
+    font-size: 1.3em;
     margin: 0;
     padding: 0;
     box-sizing:content-box;
@@ -24,7 +24,7 @@ body {
         }
         .contactinfo {
             text-align: center;
-            margin: 1em auto;
+            margin: 1.2em auto;
             border:#000000;
             border-style:ridge;
             padding: 1%;
