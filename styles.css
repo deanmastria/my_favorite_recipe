@@ -87,6 +87,7 @@ body {
             align-items: center;
             justify-content: center;
             text-align: center;
+            animation: alternate-reverse;
         }
 
         .ingredientsheader2 {
@@ -100,17 +101,15 @@ body {
             color: black;
         }
     /*Table*/
-        .Nutritable table {
-            display: flex;
-            align-content: center;
-            margin: 0 auto;
-            table-layout: auto;
-            width: 2000px;
+        .Nutritable table { 
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
             font-family: 'Courier New', Courier, monospace;
             font-size: 1em;
             border-collapse: collapse;
-            border-width: auto;
         }
+
         td,th {
             border: 1px;
             margin: auto;
@@ -189,5 +188,5 @@ body {
         }
         nav {
             font-soze: 1em}}
-        }
+        
 
