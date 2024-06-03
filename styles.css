@@ -74,7 +74,7 @@ body {
             font-size: 1em;
             border-collapse: collapse;
         }
-        .kcal,td,th {
+        td,th {
             border: 1px;
             border-style: solid;
             text-align: left;
